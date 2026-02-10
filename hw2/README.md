@@ -44,6 +44,7 @@ In the `Transaction` class implement the following methods:
 - `void signInput(int inputIndex, byte[] signature)`
 - `byte[] getInputDataToSign(int inputIndex)`
 - `void computeHash()`
+- `String getHash()`
 
 Recall that each `Input` must be signed since inputs can come from different wallets (joint payment scenario).
 Your `sign` method you implemented in `Wallet` (Part 2) takes a `byte[] message` parameter. In order to represent an input as a `byte[]`, implement a `byte[] serialize()` method in the `Input` subclass. This method should return the `prevTxHash` and `prevOutIndex` as a `byte[]`. Since `sign` is implemented in the `Wallet` class, implement an accessor `getInputDataToSign` which returns the serialized version of the specified input index.
