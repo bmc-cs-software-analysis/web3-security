@@ -78,7 +78,7 @@ Lastly, implement a `Blockchain` class with the following methods:
 
 ## Part 4 - Merkle Trees
 
-Implement Merkle Trees to allow for concise proof of membership in a block. Before we integrate this into blocks, implement the `MerkleTree` class. 
+Implement Merkle Trees to allow for concise proof of membership in a block. Before we integrate this into blocks, implement the `MerkleTree` class. It should have a `Node root` member variable that stores the root node. Include an accessor `public byte[] getRootHash()`
 
 The constructor `public MerkleTree(List<byte[]> txHashes)` should build the tree and set the `root` member variable accordingly. If the number of transactions is not a power of two, duplicate the last node to ensure a proper structure.
 
