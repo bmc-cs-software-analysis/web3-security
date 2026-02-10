@@ -22,6 +22,8 @@ Your digital signature schemes will need the following functions:
 
 `static boolean verify(Keys.PublicKey pk, byte[] message, byte[] signature)` 
 
+`public Keys.PublicKey getPublicKey()`
+
 Your constructor `Wallet(int keysize)` should call generateKeys and save the public and private keys as private member variables.
 
 The Java BigInteger library (imported in the template file) has many useful methods. I suggest using `probablePrime`, `modInverse`, `modPow`, `toByteArray` and `mod` in your implementation.
