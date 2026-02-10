@@ -57,7 +57,7 @@ Once you are satisfied that your `Transaction` class is functioning properly, mo
 - `Block(List<Transaction> transactions, Block previousBlock)`
 - `List<Transaction> getTransactions()`
 - `String getTimestamp()`
-- `HashPointer getPrevious()`
+- `Block getPrevious()`
 
 ### Hash Pointers
 
