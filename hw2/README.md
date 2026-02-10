@@ -74,7 +74,7 @@ Lastly, implement a `Blockchain` class with the following methods:
 - `void append(List<Transaction> transactions)` — creates a new Block from the given transactions and appends it to the chain. The new block's previous pointer should reference the current head block, or null if this is the first block in the chain. 
 - `Block getHead()` — returns the most recent block in the chain, or null if the chain is empty
 - `int getSize()` — returns the number of blocks in the chain
-- `boolean validateChain()` — walks the chain from head to the first block, recalculating each hash pointer and verifying it matches the stored hash. Returns true if the entire chain is intact, false if any block has been tampered with.
+- `boolean validateChain()` — Returns true if the entire chain is intact, false if any block has been tampered with.
 
 ## Part 4 - Merkle Trees
 
