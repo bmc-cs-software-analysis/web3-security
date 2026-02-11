@@ -78,6 +78,8 @@ Lastly, implement a `Blockchain` class with the following methods:
 - `int getSize()` — returns the number of blocks in the chain
 - `boolean validateChain()` — Returns true if the entire chain is intact, false if any block has been tampered with.
 
+At this point I recommend creating a `main` and testing your functionality. Create lists of transactions, and add them to blockchain. Test traversing through the blocks and ensure everything is functioning as expected.
+
 ## Part 4 - Merkle Trees
 
 Implement Merkle Trees to allow for concise proof of membership in a block. Before we integrate this into blocks, implement the `MerkleTree` class. It should have a `Node root` member variable that stores the root node. Include an accessor `public byte[] getRootHash()`
