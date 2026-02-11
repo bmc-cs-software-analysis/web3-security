@@ -32,9 +32,12 @@ Use `e = 65537` (2¹⁶ + 1) as your public exponent. This is the standard choic
 
 ## Part 3 - Blockchain: An append-only tamper resistant log
 
+Review the [Reverse Blockchain](https://github.com/bmc-cs-software-analysis/web3-lecture-code/tree/main/ReverseBlockchain) code we implemented in Lecture 5.
+
 Your code will be similar to what we did in class, but it should have the following key differences:
-1. Blocks will hold multiple data elements rather than just one
-2. Rather than documents, each block will store Transactions as data
+1. Each block will point to the previous block rather than the next block. (recalculateAll should no longer be needed)
+2. Blocks will hold multiple data elements rather than just one.
+3. Rather than documents, each block will store Transactions as data.
 
 First, we will need a `Transaction` class. In this assignment Transactions will be implemented as UTXO and will have inputs (coins being consumed) and outputs (coins being created). `Input`s and `Output`s are defined as sub-classes in `Transaction.java` Each `Input` must refer to a previous transaction and indicate which output is being referred to with an index. Each `Output` has a recipient and a value. Note that `Input` does not have a value as the entire input will be consumed. If there is change leftover, this will be sent as an `Output`. 
 
