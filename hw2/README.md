@@ -32,7 +32,7 @@ Use `e = 65537` (2¹⁶ + 1) as your public exponent. This is the standard choic
 
 ## Part 3 - Blockchain: An append-only tamper resistant log
 
-Your code will be similar to what we did in class (Lecture 4), but it should have the following key differences:
+Your code will be similar to what we did in class, but it should have the following key differences:
 1. Blocks will hold multiple data elements rather than just one
 2. Rather than documents, each block will store Transactions as data
 
