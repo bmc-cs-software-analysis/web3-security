@@ -1,5 +1,7 @@
 # Homework 2: Bitcoin and Cryptocurrencies
 
+Deadline: Friday February 20th at 11:59pm (on Gradescope)
+
 ## Overview
 
 In this assignment, you will combine your knowledge of hash functions, digital signatures, hash pointers, and merkle trees to make a basic prototype of a cryptocurrency. 
