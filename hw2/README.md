@@ -80,6 +80,8 @@ Lastly, implement a `Blockchain` class with the following methods:
 
 At this point I recommend creating a `main` and testing your functionality. Create lists of transactions, and add them to blockchain. Test traversing through the blocks and ensure everything is functioning as expected.
 
+Although they are not strictly autograder, I recommend creating a `display()` method to visualize your blockchain. To display your blockchain effectively, you also need to write `toString()` methods for `Transaction` and `Block`.
+
 ## Part 4 - Merkle Trees
 
 Implement Merkle Trees to allow for concise proof of membership in a block. Before we integrate this into blocks, implement the `MerkleTree` class. It should have a `Node root` member variable that stores the root node. Include an accessor `public byte[] getRootHash()`
@@ -109,7 +111,7 @@ To validate transactions efficiently, we will need a `UTXOPool` class that will 
 - `void removeUTXO(byte[] txHash, int outIndex)` 
 - `Transaction.Output getOutput(byte[] txHash, int outIndex)`
 - `boolean contains(byte[] txHash, int outIndex)`
-
+Ensure you have a default constructor that properly initializes the pool.
 
 Test your cryptocurrency under the following workflow:
  * 1. Transactions accumulate in pending pool
