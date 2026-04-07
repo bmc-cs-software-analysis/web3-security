@@ -46,15 +46,15 @@ echidna-test --version
 3. Fix the bugs in `BuyTicket.sol`. Mutation testing requires the test suite to pass on the current version.
 
 Your directory structure should be as follows:
-hw6/
-├── CodeCoverage/
-│   ├── contracts/
-│   │   └── BuyTicket.sol
-│   ├── test/
-│   │   └── TestBuyTicket.js
-│   ├── hardhat.config.js
-├── run_mutation_testing.sh
-└── README.md
+hw6/  
+├── CodeCoverage/  
+│   ├── contracts/  
+│   │   └── BuyTicket.sol   
+│   ├── test/  
+│   │   └── TestBuyTicket.js  
+│   ├── hardhat.config.js  
+├── run_mutation_testing.sh  
+└── README.md  
 
 ## Part 1a: Running Gambit
 
