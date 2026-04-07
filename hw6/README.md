@@ -45,7 +45,7 @@ echidna-test --version
 2. Change the solidity pragma version in `BuyTicket.sol` to be `^0.8.0`
 3. Fix the bugs in `BuyTicket.sol`. Mutation testing requires the test suite to pass on the current version.
 
-Your directory structure should be as follows:
+Your directory structure should be as follows:  
 hw6/  
 ├── CodeCoverage/  
 │   ├── contracts/  
