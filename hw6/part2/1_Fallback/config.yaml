@@ -1,0 +1,6 @@
+cryticArgs: ["--solc-remaps", "@openzeppelin/=/workspaces/web3-security/hw6/part2/node_modules/@openzeppelin/"]
+testMode: "assertion"
+deployContracts: [["0xc1FDdD8C8E57a10419A01b1aEC2f4F4F64A2393f", "Fallback"]]
+testLimit: 500000
+seqLen: 5
+balanceContract: 100000000000000000
