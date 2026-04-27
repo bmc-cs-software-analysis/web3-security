@@ -1,0 +1,4 @@
+{
+  "solc_remaps": "@openzeppelin/=/workspaces/web3-security/hw6/part2/node_modules/@openzeppelin/"
+}
+

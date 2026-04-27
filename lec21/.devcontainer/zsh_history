@@ -1,0 +1,266 @@
+: 1664262009:0;nvm --help
+: 1664262022:0;npm --version
+: 1664262047:0;nvm use 8.0
+: 1664262066:0;nvm install --lts
+: 1664262081:0;npm --version
+: 1664262290:0;wget --help
+: 1664262612:0;tar -h
+: 1664262618:0;tar --usage
+: 1664262702:0;curl "$ECHIDNA_URL" | sudo tar -xz -C /usr/bin
+: 1664262726:0;ECHIDNA_GITHUB="github.com/crytic/echidna"\
+ECHIDNA_VERSION="2.0.3"\
+ECHIDNA_URL="htttps://${ECHIDNA_GITHUB}/releases/download/v${ECHIDNA_VERSION}/echidna-test-${ECHIDNA_VERSION}-Ubuntu-18.04.tar.gz"
+: 1664262728:0;curl "$ECHIDNA_URL" | sudo tar -xz -C /usr/bin
+: 1664262749:0;ECHIDNA_URL="https://${ECHIDNA_GITHUB}/releases/download/v${ECHIDNA_VERSION}/echidna-test-${ECHIDNA_VERSION}-Ubuntu-18.04.tar.gz"
+: 1664262751:0;curl "$ECHIDNA_URL" | sudo tar -xz -C /usr/bin
+: 1664262756:0;ls
+: 1664262847:0;curl $ECHIDNA_URL -o /tmp/echidna
+: 1664262850:0;ls /tmp
+: 1664262858:0;ls /tmp/echidna
+: 1664262871:0;curl $ECHIDNA_URL -o /tmp/echidna.tar.gz
+: 1664262898:0;sudo tar -xzf /tmp/echidna.tar.gz -C /usr/bin
+: 1664262909:0;lsa /tmp
+: 1664263204:0;ECHIDNA_BASE="https://github.com/crytic/echidna/releases/download"\
+ECHIDNA_VERSION="2.0.3"\
+ECHIDNA_BIN="echidna-test-${ECHIDNA_VERSION}"\
+ECHIDNA_URL="${ECHIDNA_BASE}/v${ECHIDNA_VERSION}/${ECHIDNA_BIN}-Ubuntu-18.04.tar.gz"\
+curl -L "$ECHIDNA_URL" | sudo tar -xz -C /usr/bin
+: 1664263216:0;whereis ecidna-test
+: 1664263224:0;whereis echidna-test
+: 1664263241:0;echidna-test --help
+: 1664263278:0;gst
+: 1664263283:0;lsa
+: 1664263290:0;touch .gitignore
+: 1664263341:0;gst
+: 1664263363:0;ga .devcontainer/Dockerfile
+: 1664263364:0;gst
+: 1664263375:0;ga .devcontainer/zshrc
+: 1664308402:0;lsa ~
+: 1664308491:0;gst
+: 1664309898:0;fzf
+: 1664309911:0;lsa ~
+: 1664309985:0;echidna-test
+: 1664900211:0;ls
+: 1664900213:0;./echidna
+: 1664900214:0;ls
+: 1664900215:0;ls -a
+: 1664900471:0;solc _Fall
+: 1664900474:0;solc 1_Fallback.sol
+: 1664900480:0;solc-select use 0.6.0
+: 1664900481:0;solc 1_Fallback.sol
+: 1664900486:0;solc-select install 0.6.0
+: 1664900489:0;solc-select use 0.6.0
+: 1664900491:0;echidna
+: 1664900494:0;echidna-test
+: 1664900524:0;ls
+: 1664900529:0;echidna-test 1_Fallback.sol
+: 1664900630:0;ls
+: 1664900706:0;vim 1_Fallback.sol
+: 1664900721:0;npm i @openzeppelin/contracts@0.6.0
+: 1664900726:0;apt-get install npm
+: 1664900728:0;sudo apt-get install npm
+: 1664900765:0;npm i @openzeppelin/contracts@0.6.0
+: 1664900795:0;npm i @openzeppelin/contracts@3.4.1
+: 1664900802:0;echidna-test 1_Fallback.sol
+: 1664900804:0;ls
+: 1664900806:0;ls node_modules
+: 1664900810:0;ls node_modules/@openzeppelin
+: 1664900814:0;ls node_modules/@openzeppelin/contracts
+: 1664900835:0;echidna-test 1_Fallback.sol
+: 1664901047:0;solc --version
+: 1664901792:0;echidna-test 1_Fallback
+: 1664901795:0;cd 1_Fallback/
+: 1664901800:0;echidna-test 1_Fallback.sol
+: 1664901803:0;ls
+: 1664901807:0;vim 1_Fallback.sol
+: 1664901817:0;echidna-test 1_Fallback.sol
+: 1664901980:0;ls
+: 1664902009:0;solc @openzeppelin/=$(pwd)../node_modules/@openzeppelin/ 1_Fallback.sol
+: 1664902017:0;ls
+: 1664902020:0;$(pwd)
+: 1664902022:0;pwd
+: 1664902057:0;solc @openzeppelin/=/workspaces/hw02/node_modules/@openzeppelin 1_Fallback.sol
+: 1664902067:0;solc @openzeppelin/=/workspaces/hw02/node_modules/ 1_Fallback.sol
+: 1664902144:0;solc @openzeppelin/=/workspaces/hw02/node_modules/@openzeppelin 1_Fallback.sol
+: 1664902174:0;solc @openzeppelin/=/workspaces/hw02/node_modules/@openzeppelin/ 1_Fallback.sol
+: 1664902852:0;echidna-test 1_Fallback.sol
+: 1664902927:0;echidna-test 1_Fallback.sol --config config.yaml
+: 1664902954:0;echidna-test --config config.yaml  1_Fallback.sol
+: 1664903000:0;echidna-test 1_Fallback.sol --config config.yaml
+: 1664903026:0;echidna-test 1_Fallback.sol --contract 1_Fallback.sol --config config.yaml
+: 1664903030:0;echidna-test 1_Fallback.sol --contract 1_Fallback --config config.yaml
+: 1664903039:0;crytic-compile 1_Fallback.sol
+: 1664903060:0;crytic-compile @openzeppelin/=/workspaces/hw02/node_modules/@openzeppelin/ 1_Fallback.sol
+: 1664903071:0;crytic-compile 1_Fallback.sol @openzeppelin/=/workspaces/hw02/node_modules/@openzeppelin/\
+
+: 1664903181:0;echidna-test 1_Fallback.sol --crytic-args "@openzeppelin/=/workspaces/hw02/node_modules/@openzeppelin/"
+: 1664903410:0;crytic-compile
+: 1664903440:0;crytic-compile --solc-remaps = "@openzeppelin/=/workspaces/hw02/node_modules/@openzeppelin/"
+: 1664903450:0;crytic-compile --solc-remaps "@openzeppelin/=/workspaces/hw02/node_modules/@openzeppelin/"
+: 1664903454:0;crytic-compile --solc-remaps "@openzeppelin/=/workspaces/hw02/node_modules/@openzeppelin/" 1_Fallback.sol
+: 1664903456:0;ls
+: 1664903482:0;crytic-compile 1_Fallback.sol --config config.yaml
+: 1664903513:0;ls
+: 1664903522:0;crytic-compile --solc-remaps "@openzeppelin/=/workspaces/hw02/node_modules/@openzeppelin/" 1_Fallback.sol
+: 1664903531:0;echidna-test 1_Fallback.sol --config config.yaml
+: 1664903537:0;echidna-test 1_Fallback.sol --config config.yaml --contract Test
+: 1664903552:0;echidna-test Test.sol --config config.yaml --contract Test
+: 1664903563:0;sol-select use 0.5.0
+: 1664903569:0;echidna-test Test.sol --config config.yaml --contract Test
+: 1664905088:0;history | grep "crytic-compile"
+: 1664905099:0;crytic-compile --solc-remaps "@openzeppelin/=/workspaces/hw02/node_modules/@openzeppelin/" Test.sol
+: 1664905184:0;echidna-test Test.sol --config config.yaml --contract Test
+: 1664912297:0;cp 1_Fallback/template_config.yaml 2_Fallout
+: 1664912306:0;cp 1_Fallback/Test_template.sol 2_Fallout
+: 1664912679:0;ls
+: 1664912681:0;cd 2_Fallout/
+: 1664912682:0;ls
+: 1664912781:0;echidna-test Test.sol --config template_config.yaml
+: 1664912791:0;solc-select use 0.6.0
+: 1664912799:0;solc-select install 0.6.0
+: 1664912801:0;solc-select use 0.6.0
+: 1664912807:0;echidna-test Test.sol --config template_config.yaml
+: 1664912834:0;ls /workspaces/hw03/node_modules
+: 1664912874:0;npm i @openzeppelin/contracts@0.6.0
+: 1664912879:0;sudo apt-get install npm
+: 1664912905:0;npm i @openzeppelin/contracts@0.6.0
+: 1664912918:0;history | grep "open"
+: 1664912967:0;npm i @openzeppelin/contracts@3.4.1
+: 1664912997:0;echidna-test Test.sol --config template_config.yaml
+: 1664913004:0;ls
+: 1664913006:0;cd ../
+: 1664913006:0;ls
+: 1664913009:0;ls node_modules
+: 1664913013:0;cd 2_Fallout/
+: 1664913014:0;ls
+: 1664913032:0;echidna-test Test.sol --config template_config.yaml
+: 1664913211:0;echidna-test Test.sol --config template_config.yaml --contract Test
+: 1664913530:0;cd ../1_Fallback/
+: 1664913530:0;ls
+: 1664913539:0;echidna-test 1_Fallback.sol --config config.yaml
+: 1664913584:0;echidna-test 1_Fallback.sol --config config.yaml --contract Test
+: 1664913592:0;echidna-test Test.sol --config config.yaml
+: 1664913597:0;echidna-test Test.sol --config config.yaml --contract Test
+: 1664914301:0;cd ../4_Telephone/
+: 1664914302:0;echidna-test Test.sol --config config.yaml --contract Test
+: 1664914311:0;echidna-test Test.sol --config template_config.yaml --contract Test
+: 1664914465:0;cd ../
+: 1664914466:0;ls
+: 1664914469:0;mkdir 56_Token
+: 1664914473:0;mv 56_Token 5_Token
+: 1664914476:0;cd 5_Token/
+: 1664914479:0;mv ../5_Token.sol .
+: 1664914480:0;ls
+: 1664914492:0;cp ../4_Telephone/template_config.yaml config.yaml
+: 1664914492:0;ls
+: 1664914514:0;cp ../4_Telephone/Test.sol .
+: 1664914684:0;echidna-test Test.sol --config config.yaml --contract Test
+: 1664915516:0;cd ../9_King/
+: 1664915517:0;clear
+: 1664915517:0;ls
+: 1664987808:0;echidna-test Test.sol --config config.yaml
+: 1664987834:0;cd ../10_Re-entrancy/
+: 1664987835:0;echidna-test Test.sol --config config.yaml
+: 1664987849:0;solc --version
+: 1664987852:0;solc-select use 0.6.0
+: 1664987854:0;echidna-test Test.sol --config config.yaml
+: 1664987987:0;echidna-test Test.sol --config config.yaml --contract Test
+: 1664988594:0;cp ../5_Token/questions.txt .
+: 1664988595:0;vim questions.txt
+: 1664988979:0;cd ../ROIToken/
+: 1664988979:0;ls
+: 1664989002:0;cp ../10_Re-entrancy/Test.sol .
+: 1664989315:0;echidna-test Test.sol --config config.yaml --contract Test
+: 1664989328:0;cp ../10_Re-entrancy/config.yaml .
+: 1664989340:0;echidna-test Test.sol --config config.yaml --contract Test
+: 1664989353:0;cd ../ROIToken/ls
+: 1664989354:0;ls
+: 1664989356:0;echidna-test Test.sol --config config.yaml --contract Test
+: 1664989379:0;mv ../10_Re-entrancy/Test.sol mytest.sol
+: 1664989384:0;mv Test.sol ../10_Re-entrancy
+: 1664989387:0;mv mytest.sol Test.sol
+: 1664989388:0;echidna-test Test.sol --config config.yaml --contract Test
+: 1664989397:0;solc-select install 0.8.4
+: 1664989402:0;solc-select use 0.8.4
+: 1664989404:0;echidna-test Test.sol --config config.yaml --contract Test
+: 1664989664:0;ls
+: 1664989716:0;echidna-test Test.sol --config config.yaml --contract Test
+: 1664998700:0;echidna-test *.sol --config config.yaml --contract Test
+: 1664998989:0;solc PancakeRouter.sol
+: 1664998993:0;solc-select use 0.6.6
+: 1664998996:0;solc-select install 0.6.6
+: 1664998998:0;solc PancakeRouter.sol
+: 1664999001:0;solc-select use 0.6.6
+: 1664999003:0;solc-select install 0.6.6
+: 1664999005:0;solc PancakeRouter.sol
+: 1664999021:0;echidna-test *.sol --config config.yaml --contract Test
+: 1664999031:0;solc-select use 0.8.4
+: 1664999033:0;echidna-test *.sol --config config.yaml --contract Test
+: 1664999080:0;solc-select use 0.6.6
+: 1664999081:0;echidna-test *.sol --config config.yaml --contract Test
+: 1665084055:0;solc-select use 0.8.4
+: 1665084057:0;echidna-test *.sol --config config.yaml --contract Test
+: 1665084522:0;cd ../test/
+: 1665084524:0;echidna-test *.sol --config config.yaml --contract Test
+: 1665084529:0;echidna-test . --config config.yaml --contract Test
+: 1665084561:0;echidna-test contracts/*.sol --config config.yaml --contract Test
+: 1665084565:0;echidna-test . --config config.yaml --contract Test
+: 1665084576:0;apt-get install npx
+: 1665084578:0;sudo apt-get install npx
+: 1665084600:0;npm i npx
+: 1665084722:0;echidna-test . --config config.yaml --contract Test
+: 1665084729:0;npm i npx
+: 1665084880:0;echidna-test . --config config.yaml --contract Test
+: 1665084887:0;npx hardhat compile
+: 1665084906:0;npm i -g npx
+: 1665084926:0;sudo npm i -g npx
+: 1665084960:0;echidna-test . --config config.yaml --contract Test
+: 1665084965:0;ls
+: 1665084969:0;vim con
+: 1665084977:0;cp ../ROIToken/Test.sol contracts
+: 1665084978:0;echidna-test . --config config.yaml --contract Test
+: 1665085009:0;echidna-test . --config config.yaml --contract Tes
+: 1665085012:0;ls
+: 1665085013:0;ls con
+: 1665085014:0;ls contracts
+: 1665085017:0;npx hardhat compile
+: 1665085035:0;ls
+: 1665085037:0;ls con
+: 1665085038:0;ls contracts
+: 1665085043:0;npx hardhat compile
+: 1665085062:0;cd l
+: 1665085084:0;node --version
+: 1665085100:0;nvm install 18
+: 1665085109:0;nvm insta
+: 1665085120:0;sudo apt-get install nvm 
+: 1665085192:0;sudo apt-get install nvm
+: 1665085202:0;curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+: 1665085209:0;nvvm
+: 1665085217:0;export NVM_DIR="$HOME/.nvm"\
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm\
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" 
+: 1665085219:0;nvvm
+: 1665085226:0;nvm install 18.0.0
+: 1665085236:0;nvm use 18.0.0
+: 1665085241:0;npx hardhat compile
+: 1665085252:0;sudo apt-get install nvm 
+: 1665085258:0;npx hardhat compile
+: 1665085281:0;nvm install 16.15.1
+: 1665085290:0;nvm use 16.15.1
+: 1665085297:0;npx hardhat compile
+: 1665085330:0;ls
+: 1665085331:0;ls con
+: 1665085333:0;ls contracts
+: 1665085337:0;npx hardhat compile
+: 1665085349:0;echidna-test . --config config.yaml --contract Test
+: 1665086255:0;echidna-test . --config config.yaml --contract ROIToken
+: 1665086262:0;echidna-test . --config config.yaml --contract Test
+: 1665089256:0;npx hardhat compile
+: 1665089260:0;echidna-test . --config config.yaml --contract Test
+: 1665089337:0;echidna-test . --config config.yaml --contract ROIToken
+: 1665089818:0;echidna-test ROIToken --config config.yaml --contract ROIToken
+: 1665089827:0;echidna-test contracts/ROIToken.sol --config config.yaml --contract ROIToken
+: 1665089835:0;echidna-test contracts/ROIToken.sol --config config.yaml 
+: 1665089843:0;echidna-test contracts/ROIToken.sol --config config.yaml  --contract ROIToken
+: 1665089947:0;echidna-test . --config config.yaml --contract Test
+: 1665090575:0;echidna-test . --config config.yaml --contract PancakeRouter
